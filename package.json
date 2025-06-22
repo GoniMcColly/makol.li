@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Vorlage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "mgfeller",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^5.0.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "nedb-promises": "^6.2.3"
+  },
+  "devDependencies": {
+    "marked": "^15.0.12",
+    "nodemon": "^3.1.10",
+    "sanitize-html": "^2.17.0"
+  }
+}
